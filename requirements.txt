@@ -1,0 +1,63 @@
+# requirements.txt - list all the packages the project needs
+#
+# In this file, ignore hashes (#) - they are just used to create comments.
+# Lines starting with a hash are ignored when installing packages using this file. 
+
+
+# ======================================================
+# STEP A - CREATE A LOCAL PROJECT VIRTUAL ENV (.venv)
+# ======================================================
+# See README.md for instructions.
+
+
+# ======================================================
+# STEP B - ACTIVATE YOUR (.venv) BEFORE INSTALLING
+# ======================================================
+# See README.md for instructions.
+
+
+# ======================================================
+# STEP C - INSTALL PACKAGES FROM THIS FILE
+# ======================================================
+# After activation, run:
+# pip install -r requirements.txt
+
+
+# ======================================================
+# ESSENTIAL DEVELOPMENT TOOLS
+# ======================================================
+pip
+setuptools
+wheel
+
+
+# ======================================================
+# JUPYTER NOTEBOOK + RELATED PACKAGES
+# ======================================================
+jupyterlab
+ipython
+jupyter
+ipykernel
+
+
+# ======================================================
+# DATA ANALYSIS 
+# ======================================================
+numpy
+pandas
+pyarrow
+scipy
+
+
+# ======================================================
+# VISUALIZATION
+# ======================================================
+matplotlib
+seaborn
+
+
+# ======================================================
+# ADDITIONAL (IF NEEDED FOR YOUR PROJECT)
+# ======================================================
+# scikit-learn
+# statsmodels
